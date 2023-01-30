@@ -61,6 +61,28 @@
     background-position: bottom;
     background-repeat: no-repeat;
   }
+
+  .hero-banner {
+    height: 8em;
+    background-color: var(--secondary);
+    background-image: url(../images/02-hero-bg.jpg);
+    background-blend-mode:soft-light;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .hero-banner h2 {
+    color: var(--secondary);
+    background-color: var(--tertiary);
+    margin: 0;
+    padding: 0 5px 5px 5px;
+    font-size: 200%;
+    display: inline;
+  }
   
   h1,
   h2,
