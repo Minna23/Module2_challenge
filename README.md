@@ -16,5 +16,6 @@ When the page is resized or viewed on various screens and devices then the layou
 
 The challenge contains placeholders at points instead of taking to real deployed pages, therefore it is suitable to personalised updates at any time
 
-![image](https://user-images.githubusercontent.com/21089692/215567715-c3a30346-77ed-47e1-a7a6-9b69d897e991.png)
+![image](https://user-images.githubusercontent.com/21089692/215568243-5a33dc7f-d685-4dbc-9bdb-0ead458bc8c3.png)
+
 
