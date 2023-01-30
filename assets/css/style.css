@@ -1,6 +1,13 @@
 * {
-    box-sizing: border-box;
+    display: block;
   }
+  
+  :root {
+    --primary: rgb(157, 213, 169);
+    --secondary: rgb(87, 123, 87);
+    --tertiary: rgb(197, 190, 190);
+    --complementer: rgb(197, 115, 129);
+  } 
   
   body {
     margin: 0;
