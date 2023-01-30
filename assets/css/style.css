@@ -51,6 +51,16 @@
     color: var(--secondary);
   } 
   
+  h1 {
+    font-size: 200%;
+    font-weight: bold;
+    padding: 15px;
+    margin-left: 0;
+    margin-right: 15px;
+    background-color: var(--complementer);
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
   
   h1,
   h2,
