@@ -7,18 +7,23 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lernantino // Web Developer</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- main logo / nav -->
     <header>
       <h1>Andrea Teiermayer</h1>
-      <nav class="nav">
-        <a href="#about" class="nav-item"> About me</a>
-        <a href="#work" class="nav-item">Work</a>
-        <a href="#resume" class="nav-item">Resume</a>
-        <a href="#contact" class="nav-item"> Contact</a>
-      </nav>
+      <nav>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+              <a class="nav-link" href="#Work">Work</a>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="#Contact-me">Contact me</a>
+          </li>
+        </ul>
+       </nav> 
     </header>
   
 
@@ -43,8 +48,8 @@
 
     <!-- portfolio container -->
         
-    <section class="page-section" id="work">
-        <h2>Work</h2>
+    <section class="page-section">
+        <h2 id="Work">Work</h2>
         <div class="flex-container">
           <a href="#" class="flex-item lorem1">
             <div>
@@ -84,8 +89,8 @@
     </main>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-        <h2>Contact Me</h2>
+    <section class="page-section contact">
+        <h2 id="Contact-me">Contact Me</h2>
         <div>
           <address>
             <a href="tel:+44111111111" class="footer1">Phone number</a>
